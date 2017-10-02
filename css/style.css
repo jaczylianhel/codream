@@ -1,0 +1,283 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url('../background.jpg');
+    background-size: cover;
+}
+
+#logo {
+    position: absolute;
+    left: 10vh;
+    top: 5vh;
+    z-index: 1;
+}
+
+
+/* nav */
+
+.position-nav {
+    position: absolute;
+    top: 20vh;
+    left: 10vh;
+    z-index: 1;
+}
+
+.position-nav li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+.button {
+    opacity: 0.7;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    text-decoration-line: none;
+    font-family: 'Open Sans', sans-serif;
+    transition-duration: 1s;
+}
+
+.button1 {
+    background-color: #fff;
+    color: #25AAE1;
+    padding-right: 70px;
+}
+
+.button2 {
+    background-color: #25AAE1;
+    color: #fff;
+    padding-right: 80px;
+    margin-left: 25px;
+}
+
+.button3 {
+    background-color: #fff;
+    color: #25AAE1;
+    padding-right: 60px;
+    margin-left: 25px;
+}
+
+.button4 {
+    background-color: #25AAE1;
+    color: #fff;
+    padding-right: 180px;
+}
+
+.button5 {
+    background-color: #fff;
+    color: #25AAE1;
+    padding-right: 40px;
+}
+
+table {
+    margin-bottom: 10px;
+}
+
+
+/*start*/
+
+#theme {
+    color: #fff;
+    position: absolute;
+    top: 40vh;
+    left: 65vh;
+    font-size: 3rem;
+}
+
+
+/* whatWeDo */
+
+table {
+    margin-bottom: 10px;
+}
+
+.tabela {
+    width: 80%;
+    background-color: #25AAE1;
+    color: #fff;
+}
+
+.tableLocate {
+    padding-top: 20vh;
+    padding-left: 55vh;
+}
+
+.tableLocate h1 {
+    font-size: 1.5rem;
+}
+
+.tableLocate h2 {
+    font-size: 1.2rem;
+}
+
+.pad {
+    padding: 5px 20px 5px 15px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.pad2 {
+    padding: 10px 0px 10px 0px;
+    width: 25%;
+}
+
+.fa-pencil,
+.fa-twitter,
+.fa-trophy {
+    padding-right: 4px;
+}
+
+.pad3 {
+    text-transform: uppercase;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.pad4 {
+    padding: 10px 20px;
+}
+
+
+/*project*/
+
+.aboutWhite {
+    font-size: 1.5rem;
+    color: #25AAE1;
+    width: 80%;
+    padding: 10px 10px;
+    border-spacing: 10px;
+}
+
+.white {
+    background-color: #fff;
+    padding: 10px 10px;
+}
+
+.team2 img {
+    height: 110px;
+    border-spacing: 10px;
+    opacity: 0.8;
+    transition-duration: 1s
+}
+
+.team2 img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#partyGoer,
+#hitchMap,
+#juwenaliaKrakow,
+#haloWyspa,
+#freecom,
+#piotrWodzynski,
+#konradGebler,
+#kevinPieprzak,
+#bartoszWozniak {
+    background-color: #25AAE1;
+    color: #fff;
+    opacity: 1;
+    padding-left: 8px;
+    padding-top: 3px;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+
+/* about us */
+
+.aboutBlue {
+    width: 85%;
+    border-spacing: 10px;
+}
+
+.blue {
+    background-color: #25AAE1;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+#tableLocate h1 {
+    font-size: 2rem;
+}
+
+#mikolajMakowski img {
+    height: 125px;
+}
+
+.text {
+    color: #fff;
+    padding: 0 20px;
+    background-color: #25AAE1;
+}
+
+.team img {
+    height: 125px;
+    border-spacing: 10px;
+    opacity: 0.8;
+    transition-duration: 1s
+}
+
+
+/*kontakt */
+
+.aboutWhite2 {
+    border-spacing: 10px;
+}
+
+.aboutWhite2 td {
+    background-color: #fff;
+    color: #25AAE1;
+    padding: 10px 20px;
+}
+
+.aboutWhite2 h1 {
+    font-size: 1.5rem;
+}
+
+.aboutWhite2 h2 {
+    font-size: 1.2rem;
+}
+
+@media(max-width: 780px) {
+    #tableLocate {
+        padding-left: 15vh;
+        padding-top: 50vh;
+    }
+}
+
+@media(max-width: 700px) {
+    #tableLocate2 {
+        margin-left: -50vh;
+        margin-top: 25vh;
+    }
+}
+
+@media(max-width: 500px) {
+    #kupa {
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+}
+
+@media(max-width: 750px) {
+    .contain {
+        margin-left: -20vh;
+        margin-top: 10vh;
+    }
+}
